@@ -2,7 +2,7 @@
 
 **Steps**
 
-1. Created a Monitoring Application in Python using Flask and psutil
+1. Created a Monitoring Application in Python using Flask and psutil/home/sayan/Pictures/Screenshots/Screenshot from 2023-11-03 23-29-18.png
 2. Run the Python App locally.
 3. Containerize a Python application using Docker
     1. Creating Dockerfile
