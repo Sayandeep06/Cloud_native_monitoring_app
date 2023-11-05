@@ -2,15 +2,22 @@
 
 **Steps**
 
-1. Created a Monitoring Application in Python using Flask and psutil/home/sayan/Pictures/Screenshots/Screenshot from 2023-11-03 23-29-18.png
-2. Run the Python App locally.
+1. Created a Monitoring Application in Python using Flask and psutil ![Screenshot from 2023-11-03 23-29-18](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/12c8736e-a425-421e-a4e6-86e5a96b2e2f)
+ 
+2. Run the Python App locally. ![Screenshot from 2023-11-04 00-29-31](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/3eb020e4-eace-475f-918d-d28ba704b4dc)
+
 3. Containerize a Python application using Docker
-    1. Creating Dockerfile
-    2. Building DockerImage
-    3. Running Docker Container
+    1. Creating Dockerfile ![Screenshot from 2023-11-04 00-55-36](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/ad47c339-db60-4e5a-bfdf-24d25a2d575d)
+
+    2. Building DockerImage ![Screenshot from 2023-11-04 00-55-36](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/d78bc415-780d-4418-8439-745805d734af)
+
+    3. Running Docker Container 
     4. Docker Commands
-4. Create ECR repository using Python Boto3 and pushing Docker Image to ECR
-5. Create EKS cluster and Nodegroups
+4. Create ECR repository using Python Boto3 and pushing Docker Image to ECR ![Screenshot from 2023-11-04 01-33-23](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/1a69390f-2209-432e-b118-6774412c137f)
+![Screenshot from 2023-11-04 01-34-36](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/ca739f36-f127-4ec0-90f4-d68227605281)
+
+5. Create EKS cluster and Nodegroups  ![Screenshot from 2023-11-05 01-57-45](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/4174b228-bb37-4a19-8546-d8074a59cce9)
+
 6. Create Kubernetes Deployments and Services using Python!
 
 
@@ -217,3 +224,4 @@ Once your pod is up and running, run the port-forward to expose the service
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
 ```
+![Screenshot from 2023-11-04 01-16-48](https://github.com/Sayandeep06/Cloud_native_monitoring_app/assets/100061797/499fd77d-9e8c-48f3-9769-a22d000c9567)
